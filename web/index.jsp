@@ -15,5 +15,53 @@
         <h1>Form Pertama</h1>
         <form name="myForm" action="display.jsp" method="POST">
         </form>
-    </body>
+        <table border="0">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="text" name="tnamadepan" value="" size="50" />
+        <input type="text" name="tnamabelakang" value="" size="50" />
+        <input type="text" name="temail" value="" size="50" />
+    <td>Jenis Kelamin</td>
+    <td>:</td>
+        <select name="jk">
+            <option>LAKI-LAKI</option>
+            <option>PEREMPUAN</option>
+        </select></td>
+        <input type="reset" value="clear" name="clear" />
+        <input type="submit" value="simpan" name="simpan" />
+
+</body>
 </html>
