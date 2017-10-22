@@ -16,50 +16,43 @@
         <form name="myForm" action="display.jsp" method="POST">
         </form>
         <table border="0">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Nama Depan</td>
+                    <td>:</td>
+                    <td><input type="text" name="tnamadepan" value="" size="50" /></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Nama Belakang</td>
+                    <td>:</td>
+                    <td><input type="text" name="tnamabelakang" value="" size="50" /></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="temail" value="" size="50" /></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td><select name="jk">
+            <option>LAKI-LAKI</option>
+            <option>PEREMPUAN</option>
+        </select></td></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="ttanggallahir" value="" size="50" /></td>
                 </tr>
             </tbody>
         </table>
-        <input type="text" name="tnamadepan" value="" size="50" />
-        <input type="text" name="tnamabelakang" value="" size="50" />
-        <input type="text" name="temail" value="" size="50" />
+        
+        
+        
     <td>Jenis Kelamin</td>
     <td>:</td>
-        <select name="jk">
-            <option>LAKI-LAKI</option>
-            <option>PEREMPUAN</option>
-        </select></td>
+
         <input type="reset" value="clear" name="clear" />
         <input type="submit" value="simpan" name="simpan" />
 
